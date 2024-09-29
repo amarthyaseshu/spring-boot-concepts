@@ -6,11 +6,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class VirtualThreadsConfig {
 
-    public TomcatProtocolHandlerCustomizer tomcatProtocolHandlerCustomizer(){
-        return protocolHandler -> {
-            protocolHandler.setExecutor(Excecutors.new VirtualThreadPerTaskExecutor());
-        };
-    }
+//    public TomcatProtocolHandlerCustomizer tomcatProtocolHandlerCustomizer(){
+//        return protocolHandler -> {
+//            protocolHandler.setExecutor(Excecutors.new VirtualThreadPerTaskExecutor());
+//        };
+//    }
 }
 
 
